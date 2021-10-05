@@ -1,0 +1,473 @@
+.menu {
+    position: absolute;
+    width: 1440px;
+    height: 121px;
+    left: 0px;
+    top: 0px;
+    background: #538CC0;
+    
+    }
+    
+    .logo {
+        position: absolute;
+        width: 110px;
+        height: 121px;
+        left: 91px;
+        top: 0.47px;
+        border-radius: 400px;
+    }
+    
+    .candidatos {
+        position: absolute;
+        width: 130px;
+        height: 26px;
+        left: 466.17px;
+        top: 56.23px;
+        list-style-type: none;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+    
+        color: #FFFFFF;
+    
+        transform: rotate(-0.19deg);
+    }
+    
+    .candidatos a {
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+    
+    .empresas {
+        position: absolute;
+        width: 107px;
+        height: 27px;
+        left: 602.17px;
+        top: 53.78px;
+        list-style-type: none;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+    
+        color: #FFFFFF;
+    
+        transform: rotate(-0.19deg);
+    }
+    
+    .empresas a {
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+    
+    .sobre_nos {
+        position: absolute;
+        width: 112px;
+        height: 27px;
+        left: 730.17px;
+        top: 54.35px;
+        list-style-type: none;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+    
+        color: #FFFFFF;
+    
+        transform: rotate(-0.19deg);
+    }
+    
+    .sobre_nos a {
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+    
+    .suporte {
+        position: absolute;
+        width: 85px;
+        height: 27px;
+        left: 862.16px;
+        top: 52.92px;
+        list-style-type: none;
+    
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+    
+        color: #FFFFFF;
+    
+        transform: rotate(-0.19deg);
+    }
+    
+    .suporte a {
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+    
+    .btn-open {
+        position: absolute;
+        width: 40px;
+        height: 36px;
+        left: 1012.15px;
+        top: 46.42px;
+    }
+    
+    .entrar {
+        position: absolute;
+        width: 92px;
+        height: 27px;
+        left: 1028.17px;
+        top: 53.36px;
+        list-style-type: none;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: right;
+    
+    }
+    
+    .entrar a {
+        text-decoration: none;
+        color: #FFFFFF;
+        font-weight: bold;
+    }
+
+    .icon-vol {
+        position: relative;
+        left: 81.85%;
+        right: 16.42%;
+        top: 50px;
+        width: 25px;
+        height: 25px;
+    }
+    
+    .voltar {
+        position: relative;
+        width: 168px;
+        height: 27px;
+        left: 1115.17px;
+        top: 23.88px;
+        list-style-type: none;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: right;
+    }
+    
+    .voltar a {
+        text-decoration: none;
+        font-weight: bold;
+        color: #FFFFFF;
+    }
+
+    .form-usu {
+        position: absolute;
+width: 964px;
+height: 684px;
+left: 198px;
+top: 227px;
+
+background: #538CC0;
+border: 3px solid #538CC0;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+    }
+
+    .posicao {
+        position: relative;
+        right: 100px;
+    }
+
+    .input-nome {
+        position: absolute;
+width: 156px;
+height: 55px;
+left: 245px;
+top: 40px;
+
+background: #FFFFFF;
+border: 2px solid #538CC0;
+box-sizing: border-box;
+border-radius: 10px;
+    }
+
+    .input-email {
+        position: absolute;
+width: 156px;
+height: 55px;
+left: 502px;
+top: 40px;
+
+background: #FFFFFF;
+border: 2px solid #538CC0;
+box-sizing: border-box;
+border-radius: 10px;
+    }
+
+    .input-cpf {
+        position: absolute;
+width: 156px;
+height: 55px;
+left: 760px;
+top: 40px;
+
+background: #FFFFFF;
+border: 2px solid #538CC0;
+box-sizing: border-box;
+border-radius: 10px;
+    }
+
+    .input-profissao {
+        position: absolute;
+width: 156px;
+height: 55px;
+left: 245px;
+top: 120px;
+
+background: #FFFFFF;
+border: 2px solid #538CC0;
+box-sizing: border-box;
+border-radius: 10px;
+    }
+
+    .input-competencia {
+        position: absolute;
+width: 156px;
+height: 55px;
+left: 502px;
+top: 120px;
+
+background: #FFFFFF;
+border: 2px solid #538CC0;
+box-sizing: border-box;
+border-radius: 10px;
+    }
+
+    input[type='file'] {
+        display: none;
+    }
+
+    label[for="curriculo"] {
+        position: absolute;
+width: 156px;
+height: 55px;
+left: 760px;
+top: 120px;
+cursor: pointer;
+background: #FFFFFF;
+color: rgb(128, 135, 138);
+border: 2px solid #538CC0;
+box-sizing: border-box;
+border-radius: 10px;
+padding: 14px 2px
+    }
+
+    label[for="foto"] {
+        position: absolute;
+        width: 156px;
+height: 55px;
+left: 760px;
+top: 200px;
+cursor: pointer;
+background: #FFFFFF;
+color: rgb(128, 135, 138);
+border: 2px solid #538CC0;
+box-sizing: border-box;
+border-radius: 10px;
+padding: 14px 2px
+    }
+
+    .input-wrapper-curriculo label:hover {
+        background-color: #2980b9;
+    }
+
+    .input-wrapper-foto label:hover {
+        background-color: #2980b9;
+    }
+
+    .file-name-curriculo {
+        position: relative;
+        left: 930px;
+        top: 135px;
+        color: #FFFFFF;
+        font-size: 10px;
+
+    }
+
+    .file-name-foto {
+        position: relative;
+        left: 930px;
+        top: 195px;
+        color: #FFFFFF;
+        font-size: 10px;
+    }
+
+    .input-cep {
+        position: absolute;
+width: 156px;
+height: 55px;
+left: 502px;
+top: 200px;
+
+background: #FFFFFF;
+border: 2px solid #538CC0;
+box-sizing: border-box;
+border-radius: 10px;
+    }
+
+    .input-endereço {
+        position: absolute;
+width: 156px;
+height: 55px;
+left: 245px;
+top: 288px;
+
+background: #FFFFFF;
+border: 2px solid #538CC0;
+box-sizing: border-box;
+border-radius: 10px;
+    }
+
+    .input-numero {
+        position: absolute;
+width: 156px;
+height: 55px;
+left: 502px;
+top: 288px;
+
+background: #FFFFFF;
+border: 2px solid #538CC0;
+box-sizing: border-box;
+border-radius: 10px;
+    }
+
+    .input-complemento {
+        position: absolute;
+width: 156px;
+height: 55px;
+left: 760px;
+top: 288px;
+
+background: #FFFFFF;
+border: 2px solid #538CC0;
+box-sizing: border-box;
+border-radius: 10px;
+    }
+
+    .input-bairro {
+        position: absolute;
+width: 156px;
+height: 55px;
+left: 245px;
+top: 388px;
+
+background: #FFFFFF;
+border: 2px solid #538CC0;
+box-sizing: border-box;
+border-radius: 10px;
+    }
+
+    .input-cidade {
+        position: absolute;
+width: 156px;
+height: 55px;
+left: 502px;
+top: 388px;
+
+background: #FFFFFF;
+border: 2px solid #538CC0;
+box-sizing: border-box;
+border-radius: 10px;
+    }
+
+    .input-estado {
+        position: absolute;
+width: 156px;
+height: 55px;
+left: 760px;
+top: 388px;
+
+background: #FFFFFF;
+border: 2px solid #538CC0;
+box-sizing: border-box;
+border-radius: 10px;
+    }
+
+    .input-senha {
+        position: absolute;
+width: 156px;
+height: 55px;
+left: 245px;
+top: 488px;
+
+background: #FFFFFF;
+border: 2px solid #538CC0;
+box-sizing: border-box;
+border-radius: 10px;
+    }
+
+    .input-confirma_senha {
+        position: absolute;
+width: 156px;
+height: 55px;
+left: 502px;
+top: 488px;
+
+background: #FFFFFF;
+border: 2px solid #538CC0;
+box-sizing: border-box;
+border-radius: 10px;
+    }
+
+    .input-celular {
+        position: absolute;
+width: 156px;
+height: 55px;
+left: 245px;
+top: 200px;
+
+background: #FFFFFF;
+border: 2px solid #538CC0;
+box-sizing: border-box;
+border-radius: 10px;
+    }
+
+    .btn-cad {
+        position: absolute;
+width: 156px;
+height: 55px;
+left: 502px;
+top: 588px;
+color: #538CC0;
+font-weight: bold;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+background: #FFFFFF;
+border: 3px solid #538CC0;
+box-sizing: border-box;
+border-radius: 20px;
+    }
+
+    .msg {
+        position: absolute;
+        left: 395px;
+        top: 10px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: #FFFFFF;
+        font-weight: bold;
+    }
+
+
+    .invalid{
+        border: 2px solid red;
+    }

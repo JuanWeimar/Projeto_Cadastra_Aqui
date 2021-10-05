@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Usuário</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../javascript/validaFormUsuarioFinal.js"></script>
+</head>
+<body>
+            <form id="formulario_usuario" action="../logica/logica_usuario.php" method="post" class="form-container" enctype="multipart/form-data">
+                <div class="fields">
+                        <fieldset>
+                            <p><label for="nome_usuario">Nome: </label><input type="text" class="input" name="nome_usuario" id="nome_usuario"></p>
+                            <p><label for="email_usuario">Email: </label><input type="text" class="input" name="email_usuario" id="email_usuario"></p>
+                            <p><label for="nr_telefone_usuario">Telefone: </label><input type="text" class="input" name="nr_telefone_usuario" id="nr_telefone_usuario"></p>
+                            <p><label for="cpf">CPF: </label><input type="text" class="input" name="cpf" id="cpf"></p>
+                            <p><label for="cep">CEP: </label><input type="text" class="input" name="cep" id="cep"></p>
+                            <p><label for="endereco">Endereço: </label><input type="text" class="input" name="endereco" id="endereco"></p>
+                            <p><label for="numero">Número: </label><input type="text" class="input" name="numero" id="numero"></p>
+                            <p><label for="bairro">Bairro: </label><input type="text" class="input" name="bairro" id="bairro"></p>
+                            <p><label for="complemento">Complemento: </label><input type="text" class="input" name="complemento" id="complemento"></p>
+                            <p><label for="cidade">Cidade: </label><input type="text" class="input" name="cidade" id="cidade"></p>
+                            <p><label for="estado">Estado: </label><input type="text" class="input" name="estado" id="estado"></p>
+                            <p><label for="competencia">Competencia: </label><input type="text" class="input" name="competencia" id="competencia"></p>
+                            <p><label for="curriculo">Insira seu Curriculo: </label><input type="file" class="input" name="curriculo" id="curriculo"></p>
+                            <p><label for="senha_usuario">Senha: </label> <input type="password" class="input" name="senha_usuario" id="senha_usuario"></p>
+                            <p><button type="submit" name="botao" value="botao">Cadastrar</button></p>
+                            <input type="hidden" name="cadastrar" value="cadastrar">
+                        </fieldset>
+                    <div class="msg" id="mensagem"></div>
+                </div>     
+            </form>
+    <script type="text/javascript"></script>
+</body>
+</html>

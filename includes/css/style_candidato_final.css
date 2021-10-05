@@ -1,0 +1,16 @@
+body header,.rodape,section{
+    max-width: 95.375em;
+    min-width: 68em;
+}
+
+.menu {
+    position: relative;
+    width: 101%;
+    right: 0.6%;
+    height: 121px;
+    bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #538CC0;
+}
+

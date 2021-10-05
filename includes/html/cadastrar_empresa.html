@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastra Aqui</title>
+    <link rel="stylesheet" href="../css/style_cadempresa.css">
+    <link rel="apple-touch-icon" sizes="144x144" href="../imagens/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="../imagens/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="../imagens/favicon.ico">
+    <link rel="mask-icon" href="../imagens/favicon.ico" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <script src="../javascript/validaFormRecrutador.js"></script>
+</head>
+<body>
+    <header class="menu">
+        <img class="logo" src="../imagens/Cópia de Cadastra Aqui Logotipo.png" alt="">
+        <nav>
+            <li class="candidatos"><a href="candidatos.html">Candidatos</a></li>
+            <li class="empresas"><a href="empresas.html">Empresas</a></li>
+            <li class="sobre_nos"><a href="sobre_nos.html">Sobre Nós</a></li>
+            <li class="suporte"><a href="suporte.html">Suporte</a></li>
+            <img class="btn-open" src="../imagens/bx_bx-door-open.png" alt="">
+            <li class="entrar"><a href="logar.html">Entrar</a></li>
+            <img class="icon-vol" src="../imagens/Voltar.png" alt="">
+            <li class="voltar"><a href="cadastro.html">Voltar</a></li>
+        </nav>
+    </header>
+
+    <section>
+        <form class="form-emp" action="../logica/logica_empresa.php" method="post" id="formulario_empresa" enctype="multipart/form-data">
+            <div class="posicao">
+                <input type="text" class="input-nome" name="nome_empresa" id="nome_empresa" value="" placeholder="Nome da Empresa">
+                <div class="input-wrapper-foto">
+                    <label for="foto">Selecionar Foto &#187;</label><input type="file" class="input-foto" name="foto" id="foto" value="">
+                    <span class="file-name-foto" id="file-name-foto"></span>
+                </div>
+                <input type="text" class="input-email" name="email_empresa" id="email_empresa" value="" placeholder="E-mail da Empresa">
+                <input type="text" class="input-cnpj" name="cnpj" id="cnpj" value="" placeholder="CNPJ">
+                <input type="text" class="input-telefone" name="nr_telefone_empresa" id="nr_telefone_empresa" value="" placeholder="Telefone">
+                <input type="password" class="input-senha" name="senha_empresa" id="senha_empresa" value="" placeholder="Senha">
+                <input type="password" class="input-confirma_senha" name="confirma_senha" id="confirma_senha" value="" placeholder="Confirmação de Senha">
+                <input type="text" class="input-nome-responsavel" name="nome_responsavel" id="nome_responsavel" value="" placeholder="Nome do Responsável">
+                <input type="password" class="codigo" name="codigo_acesso" id="codigo_acesso" value="" placeholder="Código de Acesso">
+                <button type="submit" class="btn-cad" name="botao"  value="botao">Cadastrar</button>
+                    <input type="hidden" name="cadastrar" value="cadastrar">
+                <div class="msg" id="mensagem"></div>
+            </div>
+        </form>
+    </section>
+    <script type="text/javascript"></script>
+</body>
+</html>

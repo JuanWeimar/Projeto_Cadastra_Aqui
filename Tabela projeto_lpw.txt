@@ -1,0 +1,32 @@
+CREATE DATABASE projeto_lpw;
+
+Create table usuario(
+codusuario int(6) UNSIGNED AUTO_INCREMENT primary key,
+competencia varchar(50) NOT NULL,
+cpf varchar(13) NOT NULL,
+curriculo varchar(50) NOT NULL,
+email_usuario varchar(30) NOT NULL,
+nome_usuario varchar(30) NOT NULL,
+reg_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+senha_usuario varchar(15) DEFAULT '12345' NOT NULL
+);
+
+Create table recrutador(
+codrecrutador int(6) UNSIGNED AUTO_INCREMENT primary key,
+nome_recrutador varchar(30) NOT NULL,
+email_recrutador varchar(30) NOT NULL,
+cpf_recrutador varchar(13) NOT NULL,
+senha_recrutador varchar(15) DEFAULT '12345' NOT NULL,
+reg_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+empresa varchar(50) NOT NULL
+);
+
+Create table telefones_usuarios(
+codtelefone int(6) UNSIGNED AUTO_INCREMENT primary key,
+nr_telefone_usuario varchar(50) NOT NULL
+);
+
+Create table telefones_recrutadores(
+codtelefone_recrutador int(6) UNSIGNED AUTO_INCREMENT primary key,
+nr_telefone_recrutador varchar(50) NOT NULL
+);

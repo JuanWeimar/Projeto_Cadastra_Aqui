@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Recrutador</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../javascript/validaFormRecrutador.js"></script>
+</head>
+<body>
+        <form id="formulario_recrutador" action="../logica/logica_recrutador.php" method="post" class="form-container">
+            <div class="fields">
+                    <fieldset>
+                        <p><label for="nome_recrutador">Nome: </label><input class="input" type="text" name="nome_recrutador" id="nome_recrutador"></p>
+                        <p><label for="email_recrutador">Email: </label><input class="input" type="text" name="email_recrutador" id="email_recrutador"></p>
+                        <p><label for="nr_telefone_recrutador">Telefone: </label><input class="input" type="text" name="nr_telefone_recrutador" id="nr_telefone_recrutador"></p>
+                        <p><label for="cpf_recrutador">CPF: </label><input class="input" type="text" name="cpf_recrutador" id="cpf_recrutador"></p>
+                        <p><label for="empresa">Empresa:</label><input class="input" type="text" name="empresa" id="empresa"></p>
+                        <p><label for="senha">Senha: </label> <input class="input" type="password" name="senha" id="senha"></p>
+                        <p><button type="submit" id='cadastrar' name='cadastrar' value="Cadastrar"> Cadastrar </button>  </p> 
+                        <input type="hidden" name="cadastrar" value="cadastrar">
+                    </fieldset>
+                <div class="msg" id="mensagem"></div>
+            </div>     
+        </form>
+    <script type="text/javascript"></script>
+</body>
+</html>

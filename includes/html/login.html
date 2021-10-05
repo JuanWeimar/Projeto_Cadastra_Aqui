@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/style_login_final.css">
+    <link rel="apple-touch-icon" sizes="144x144" href="../imagens/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="../imagens/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="../imagens/favicon.ico">
+    
+    <link rel="mask-icon" href="../imagens/favicon.ico" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <script src="../javascript/login_usuario.js"></script>
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="../imagens/Cópia de Cadastra Aqui Logotipo.png" alt="" width="100" height="10">
+        </div>
+        <nav class="menu">
+            <div class="links">
+                <li class="candidatos"><a href="candidatos.html">Candidatos</a></li>
+                <li class="empresas"><a href="empresas.html">Empresas</a></li>
+                <li class="sobre_nos"><a href="sobre_nos.html">Sobre Nós</a></li>
+                <li class="suporte"><a href="suporte.html">Suporte</a></li> 
+            </div>
+            <div class="acoes">
+                <img class="icon-vol" src="../imagens/Voltar.png" alt="">
+                <li class="voltar"><a href="index.html">Voltar</a></li>
+                <img class="icon-cad" src="../imagens/Group.png" alt="" width="30" height="30">
+                <li class="cadastrar"><a href="cadastro.html">Cadastrar</a></li>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <div class="forms">
+            <form class="form-cad" action="../logica/logica_candidato.php" method="post" id="login_usuario" enctype="multipart/form-data">
+                <h2>Login do Candidato</h2>
+                <input class="input-cpf" type="text" name="cpf" id="cpf" value="" placeholder="Digite seu CPF Aqui">
+                <input class="input-senha" type="password" name="senha_usuario" id="senha_usuario" value="" placeholder="Digite sua Senha Aqui">
+                <div class="msg" id="mensagem"></div>
+                <button class="btn-entrar" type="submit" id="entrar" name="entrar" value="entrar"> Entrar </button>
+                <input type="hidden" name="entrar" value="entrar">
+                
+                    <p class="pergunta">Não possui cadastro?</p>
+                    <a class="link-cad" href="cadastro.html">Cadastre Aqui</a>
+                    
+            </form>
+            <form class="form-emp" action="../logica/logica_empresa.php" method="post" id="login_empresa" enctype="multipart/form-data">
+                <h2 class="login">Login da Empresa</h2>
+                <input class="input-cnpj" type="text" name="cnpj" id="cnpj" value="" placeholder="Digite seu CNPJ Aqui">
+                <input class="input-senha-empresa" type="password" name="senha_empresa" id="senha_empresa" value="" placeholder="Digite sua Senha Aqui">
+                <div class="msg-emp" id="mensagem-empresa"></div>
+                <button class="btn-entrar-emp" type="submit" id="entrar_emp" name="entrar_emp" value="entrar_emp"> Entrar </button>
+                <input type="hidden" name="entrar_emp" value="entrar_emp">
+                
+                    <p class="pergunta-emp">Não possui cadastro?</p>
+                    <a class="link-cad-emp" href="cadastro.html">Cadastre Aqui</a>
+                    
+            </form>
+        </div>
+    </section>
+
+    <footer class="rodape">
+        <div class="contato">
+            <p class="fale_conosco">Fale Conosco</p>
+            <p class="whatsapp">Whatsapp</p>
+            <p class="numero">(53) 98468-5546</p>
+            <p class="email">E-mail</p>
+            <p class="endereco_email">contato@cadastraaqui.com.br</p>
+        </div>
+        <div class="marca">
+            <img class="logotipo" src="../imagens/Cópia de Cadastra Aqui Logotipo.png" alt="">
+            <p class="copyright">Copyright 2021. CadastraAqui - Todos os direitos reservados</p>
+        </div>
+        <div class="icones">
+            <img class="facebook" src="../imagens/VectorFacebook.png" alt="">
+            <img class="instagram" src="../imagens/VectorInstagram-1.png" alt="">
+            <img class="circulo-insta" src="../imagens/VectorInstagram.png" alt="" width="15" height="15">
+            <img class="linkedin" src="../imagens/VectorLinkedin-1.png" alt="">
+            <img class="sigla-linkedin" src="../imagens/VectorLinkedin.png" alt="" width="25" height="25">
+        </div>
+    </footer>
+
+    <script type="text/javascript"></script>
+</body>
+</html>

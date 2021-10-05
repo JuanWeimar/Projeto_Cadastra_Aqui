@@ -1,0 +1,433 @@
+.menu {
+    position: absolute;
+    width: 1440px;
+    height: 121px;
+    left: 0px;
+    top: 0px;
+    background: #538CC0;
+    
+    }
+    
+    .logo {
+        position: absolute;
+        width: 110px;
+        height: 121px;
+        left: 91px;
+        top: 0.47px;
+        border-radius: 400px;
+    }
+    
+    .candidatos {
+        position: absolute;
+        width: 130px;
+        height: 26px;
+        left: 466.17px;
+        top: 56.23px;
+        list-style-type: none;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+    
+        color: #FFFFFF;
+    
+        transform: rotate(-0.19deg);
+    }
+    
+    .candidatos a {
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+    
+    .empresas {
+        position: absolute;
+        width: 107px;
+        height: 27px;
+        left: 602.17px;
+        top: 53.78px;
+        list-style-type: none;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+    
+        color: #FFFFFF;
+    
+        transform: rotate(-0.19deg);
+    }
+    
+    .empresas a {
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+    
+    .sobre_nos {
+        position: absolute;
+        width: 112px;
+        height: 27px;
+        left: 730.17px;
+        top: 54.35px;
+        list-style-type: none;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+    
+        color: #FFFFFF;
+    
+        transform: rotate(-0.19deg);
+    }
+    
+    .sobre_nos a {
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+    
+    .suporte {
+        position: absolute;
+        width: 85px;
+        height: 27px;
+        left: 862.16px;
+        top: 52.92px;
+        list-style-type: none;
+    
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+    
+        color: #FFFFFF;
+    
+        transform: rotate(-0.19deg);
+    }
+    
+    .suporte a {
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+    
+    .icon-vol {
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        left: 1032.15px;
+        top: 50.42px;
+    }
+    
+    .voltar {
+        position: absolute;
+        width: 92px;
+        height: 27px;
+        left: 1028.17px;
+        top: 53.36px;
+        list-style-type: none;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: right;
+    
+    }
+    
+    .voltar a {
+        text-decoration: none;
+        color: #FFFFFF;
+        font-weight: bold;
+    }
+
+    .icon-cad {
+        position: relative;
+        left: 81.85%;
+        right: 16.42%;
+        top: 50px;
+        width: 25px;
+        height: 25px;
+    }
+    
+    .cadastrar {
+        position: relative;
+        width: 168px;
+        height: 27px;
+        left: 1135.17px;
+        top: 23.88px;
+        list-style-type: none;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: right;
+    }
+    
+    .cadastrar a {
+        text-decoration: none;
+        font-weight: bold;
+        color: #FFFFFF;
+    }
+
+    .form-cad {
+        position: absolute;
+width: 575px;
+height: 391px;
+left: 55px;
+top: 197px;
+
+background: #538CC0;
+border: 4px solid #FFFFFF;
+box-sizing: border-box;
+box-shadow: 4px 4px 4px rgba(210, 209, 209, 0.5);
+border-radius: 20px;
+    }
+
+    .form-cad h2 {
+        position: relative;
+        left: 170px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: #FFFFFF;
+    }
+
+    .input-cpf {
+        position: absolute;
+width: 220px;
+height: 43px;
+left: 170px;
+top: 94px;
+
+background: #FFFFFF;
+border-radius: 5px;
+border-color: #538CC0;
+    }
+
+    .input-senha {
+        position: absolute;
+width: 220px;
+height: 43px;
+left: 170px;
+top: 184px;
+
+background: #FFFFFF;
+border-radius: 5px;
+border-color: #538CC0;
+    }
+
+    .msg {
+        position: absolute;
+        left: 200px;
+        top: 240px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bold;
+        color: #FFFFFF;
+    }
+
+    .btn-entrar {
+        position: absolute;
+width: 154px;
+height: 49px;
+left: 205px;
+top: 274px;
+color: #538CC0;
+font-weight: bold;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+background: #FFFFFF;
+border-radius: 10px;
+border-color: #538CC0;
+    }
+
+    .pergunta {
+        position: absolute;
+        left: 203px;
+        top: 320px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bold;
+        color: #FFFFFF;
+    }
+
+    .link-cad {
+        position: absolute;
+        left: 235px;
+        top: 360px;
+        text-decoration: none;
+        color: #FFFFFF;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .invalid-usuario{
+        border: 2px solid red;
+    }
+
+    .form-emp {
+        position: absolute;
+width: 575px;
+height: 391px;
+left: 730px;
+top: 197px;
+
+background: #538CC0;
+border: 4px solid #FFFFFF;
+box-sizing: border-box;
+box-shadow: 4px 4px 4px rgba(210, 209, 209, 0.5);
+border-radius: 20px;
+    }
+
+    .form-emp h2 {
+        position: relative;
+        left: 190px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: #FFFFFF;
+    }
+
+    .btn-entrar-emp {
+        position: absolute;
+width: 154px;
+height: 49px;
+left: 215px;
+top: 274px;
+color: #538CC0;
+font-weight: bold;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+background: #FFFFFF;
+border-radius: 10px;
+border-color: #538CC0;
+    }
+
+    .input-senha-empresa {
+        position: absolute;
+width: 220px;
+height: 43px;
+left: 175px;
+top: 184px;
+
+background: #FFFFFF;
+border-radius: 5px;
+border-color: #538CC0;
+    }
+
+
+    .input-cnpj {
+        position: absolute;
+width: 220px;
+height: 43px;
+left: 175px;
+top: 94px;
+
+background: #FFFFFF;
+border-radius: 5px;
+border-color: #538CC0;
+    }
+
+    .invalid-empresa{
+        border: 2px solid red;
+    }
+
+    .pergunta-emp {
+        position: absolute;
+        left: 213px;
+        top: 320px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bold;
+        color: #FFFFFF;
+    }
+
+    .link-cad-emp {
+        position: absolute;
+        left: 245px;
+        top: 360px;
+        text-decoration: none;
+        color: #FFFFFF;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .msg-emp {
+        position: absolute;
+        left: 212px;
+        top: 240px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bold;
+        color: #FFFFFF;
+    }
+
+    footer{
+        position: relative;
+        top: 10px;
+        right: 1%;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        background-color: #538CC0;
+        height: 200px;
+        align-items: center;
+        border-left: 20px solid #538CC0;
+        
+    }
+    
+    footer .contato{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 20%;
+    }
+    
+    footer .contato p{
+        position: relative;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bold;
+        font-size: 12px;
+        color: #FFFFFF;
+    }
+    
+    footer .marca{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 60%;
+    }
+    
+    footer .marca .logotipo{
+        position: relative;
+        right: 4%;
+    }
+    
+    footer .marca .copyright{
+        position: relative;
+        right: 4%;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bold;
+        font-size: 12px;
+        color: #FFFFFF;
+    }
+    
+    footer .icones{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    footer .icones .instagram{
+        position: relative;
+        left: 10%;
+    }
+    
+    footer .icones .circulo-insta{
+        position: relative;
+        right: 7%;
+        top: 14px;
+    }
+    
+    footer .icones .linkedin{
+        position: relative;
+        left: 10%;
+    }
+    
+    footer .icones .sigla-linkedin{
+        position: relative;
+        right: 10%;
+        top: 8px;
+    }
+

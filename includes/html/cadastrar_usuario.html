@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastra Aqui</title>
+    <link rel="stylesheet" href="../css/sytle_cadusuario.css">
+    <link rel="apple-touch-icon" sizes="144x144" href="../imagens/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="../imagens/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="../imagens/favicon.ico">
+    <link rel="mask-icon" href="../imagens/favicon.ico" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <script src="../javascript/validaFormUsuarioFinal.js"></script>
+</head>
+<body>
+    <header class="menu">
+        <img class="logo" src="../imagens/Cópia de Cadastra Aqui Logotipo.png" alt="">
+        <nav>
+            <li class="candidatos"><a href="candidatos.html">Candidatos</a></li>
+            <li class="empresas"><a href="empresas.html">Empresas</a></li>
+            <li class="sobre_nos"><a href="sobre_nos.html">Sobre Nós</a></li>
+            <li class="suporte"><a href="suporte.html">Suporte</a></li>
+            <img class="btn-open" src="../imagens/bx_bx-door-open.png" alt="">
+            <li class="entrar"><a href="logar.html">Entrar</a></li>
+            <img class="icon-vol" src="../imagens/Voltar.png" alt="">
+            <li class="voltar"><a href="cadastro.html">Voltar</a></li>
+        </nav>
+    </header>
+
+    <section>
+        <form class="form-usu" action="../logica/logica_candidato.php" method="post" id="formulario_usuario" enctype="multipart/form-data">
+            <div class="posicao">
+                <input type="text" class="input-nome" name="nome_usuario" id="nome_usuario" value="" placeholder="Nome">
+                <input type="text" class="input-email" name="email_usuario" id="email_usuario" value="" placeholder="E-mail">
+                <input type="text" class="input-cpf" name="cpf" id="cpf" value="" placeholder="CPF">
+                <input type="text" class="input-profissao" name="profissão" id="profissão" value="" placeholder="Profissão">
+                <input type="text" class="input-competencia" name="competencia" id="competencia" value="" placeholder="Principal Competência">
+                <div class="input-wrapper-curriculo">
+                    <label for="curriculo">Selecionar Curriculo &#187;</label><input type="file" class="input-curriculo" name="curriculo" id="curriculo" value="">
+                    <span class="file-name-curriculo" id="file-name-curriculo"></span>
+                </div>
+                <div class="input-wrapper-foto">
+                    <label for="foto">Selecionar Foto &#187;</label><input type="file" class="input-foto" name="foto" id="foto" value="">
+                    <span class="file-name-foto" id="file-name-foto"></span>
+                </div>
+                <input type="text" class="input-cep" name="cep" id="cep" value="" placeholder="CEP">
+                <input type="text" class="input-endereço" name="endereco" id="endereco" value="" placeholder="Endereço">
+                <input type="text" class="input-numero" name="numero" id="numero" value="" placeholder="Número">
+                <input type="text" class="input-complemento" name="complemento" id="complemento"  placeholder="Complemento">
+                <input type="text" class="input-bairro" name="bairro" id="bairro" value="" placeholder="Bairro">
+                <input type="text" class="input-cidade" name="cidade" id="cidade" value="" placeholder="Cidade">
+                <input type="text" class="input-estado" name="estado" id="estado" value="" placeholder="Estado">
+                <input type="password" class="input-senha" name="senha_usuario" id="senha_usuario" value="" placeholder="Senha">
+                <input type="password" class="input-confirma_senha" name="confirma_senha" id="confirma_senha" value="" placeholder="Confirmação de Senha">
+                <input type="text" class="input-celular" name="nr_telefone_usuario" id="nr_telefone_usuario" value="" placeholder="Celular">
+                <button type="submit" class="btn-cad" name="botao"  value="botao">Cadastrar</button>
+                <input type="hidden" name="cadastrar" value="cadastrar">
+                <div class="msg" id="mensagem"></div>
+            </div>
+        </form>
+    </section>
+    <script type="text/javascript"></script>
+</body>
+</html>

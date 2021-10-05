@@ -1,0 +1,349 @@
+body header,.rodape,section{
+    max-width: 95.375em;
+    min-width: 68em;
+}
+
+header{
+    position: relative;
+    width: 101%;
+    right: 0.6%;
+    height: 121px;
+    bottom: 8px;
+    display: flex;
+    justify-content: center;
+    background-color: #538CC0;
+}
+
+header .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+header .logo img{
+    max-width: 100%;
+    height: auto;
+}
+
+header .menu{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .menu a{
+    color:white;
+    text-decoration: none; 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    
+}
+
+header .menu .links{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header .menu .acoes{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header .menu li{
+    list-style-type: none;
+}
+
+header .menu .acoes .btn-open{
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    left: 6%;
+}
+
+header .menu .acoes .icon-cad{
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    left: 5%;
+}
+
+section .conteudo-cadastra{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+section .conteudo-cadastra .img-cad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+
+section .conteudo-cadastra .img-caid img{
+    max-width: 100%;
+    height: auto;
+}
+
+section .conteudo-cadastra .cadastra_aqui{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}
+
+section .conteudo-cadastra .cadastra_aqui .titulo_cad{
+    position: relative;
+    right: 2%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #538CC0;
+}
+
+section .conteudo-cadastra .cadastra_aqui .texto_cad{
+    position: relative;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    width: 45%;
+    color: #538CC0;
+}
+
+section .conteudo-cadastra .cadastra_aqui .bt-conf{
+    position: relative;
+    width: 110px;
+    height: 40px;
+    top: 5%;
+    right: 2%;
+    background: #F28749;
+    border-radius: 10px;
+    border-color: #F28749;
+    color: #FFFFFF;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+
+}
+
+.divisoria{
+    border: 2px solid #538CC0;
+}
+
+section .conteudo-candidato{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+section .conteudo-candidato .candidato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+section .conteudo-candidato .candidato .titulo_cand{
+    position: relative;
+    right: 3%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #538CC0;
+}
+
+section .conteudo-candidato .candidato .texto_cand{
+    position: relative;
+    left: 2%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    width: 42%;
+    color: #538CC0;
+}
+
+section .conteudo-candidato .candidato .bt-cand{
+    position: relative;
+    width: 110px;
+    height: 40px;
+    top: 5%;
+    right: 15%;
+    background: #A9A7E8;
+    border-radius: 10px;
+    border-color: #A9A7E8;
+    color: #FFFFFF;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+
+}
+
+section .conteudo-candidato .img-cand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+section .conteudo-empresa{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+section .conteudo-empresa .img-emp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+
+section .conteudo-empresa .empresa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}
+
+section .conteudo-empresa .empresa .titulo_emp{
+    position: relative;
+    right: 3%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #538CC0;
+}
+
+section .conteudo-empresa .empresa .texto_emp{
+    position: relative;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    width: 50%;
+    color: #538CC0;
+}
+
+section .conteudo-empresa .empresa .bt-emp{
+    position: relative;
+    width: 110px;
+    height: 40px;
+    top: 5%;
+    right: 15%;
+    background: #D66259;
+    border-radius: 10px;
+    border-color: #D66259;
+    color: #FFFFFF;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+
+}
+
+footer{
+    position: relative;
+    top: 10px;
+    right: 1%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #538CC0;
+    height: 200px;
+    align-items: center;
+    border-left: 20px solid #538CC0;
+    
+}
+
+footer .contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+}
+
+footer .contato p{
+    position: relative;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+footer .marca{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+}
+
+footer .marca .logotipo{
+    position: relative;
+    right: 4%;
+}
+
+footer .marca .copyright{
+    position: relative;
+    right: 4%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+footer .icones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer .icones .instagram{
+    position: relative;
+    left: 10%;
+}
+
+footer .icones .circulo-insta{
+    position: relative;
+    right: 7%;
+    top: 14px;
+}
+
+footer .icones .linkedin{
+    position: relative;
+    left: 10%;
+}
+
+footer .icones .sigla-linkedin{
+    position: relative;
+    right: 10%;
+    top: 8px;
+}
+
+
+@media (max-width: 800px) {
+    section .conteudo-cadastra {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    section .conteudo-candidato {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    }
+    section .conteudo-empresa {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    }
+    
+
+
+
+
+
